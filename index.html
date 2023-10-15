@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>chrome</title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li id="today">00.00.00</li>
+        <li id="clock">00:00:00</li>
+      </ul>
+    </header>
+
+    <section>
+      <div id="greeting" class="hidden"></div>
+
+      <form id="login-form">
+        <div class="logInForm">
+          <input
+            required
+            type="text"
+            placeholder="What is your name?"
+            maxlength="15"
+            class="loginInput"
+          />
+          <input type="submit" value="Log In" class="logBtn" />
+        </div>
+      </form>
+
+      <form id="logout-form" class="hidden">
+        <div class="logOutForm">
+          <input type="submit" value="Log out" class="logBtn" />
+        </div>
+      </form>
+      <form id="todo-form" class="todoForm">
+        <input
+          type="text"
+          placeholder="Write a To Do and Press Enter"
+          required
+          class="todoInput"
+        />
+      </form>
+      <ul id="todo-list" class="todoList"></ul>
+    </section>
+
+    <div id="quote" class="quote">
+      <span></span>
+      <span></span>
+    </div>
+
+    <div id="weather" class="weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <script src="JS/greeting.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/quote.js"></script>
+    <script src="JS/background.js"></script>
+    <script src="JS/todo.js"></script>
+    <script src="JS/weather.js"></script>
+  </body>
+</html>

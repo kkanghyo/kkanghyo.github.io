@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 80%;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  border-bottom: 1px solid rgb(131, 131, 131);
+  margin: 0 80px;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#today {
+  color: rgb(237, 162, 43);
+  text-align: center;
+  font-size: 20px;
+}
+
+#clock {
+  color: rgb(237, 162, 43);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+section {
+  height: 5rem;
+}
+
+#greeting {
+  text-align: right;
+  margin-right: 80px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: rgb(237, 162, 43);
+}
+
+.logBtn {
+  background-color: inherit;
+  border: 1px solid rgb(79, 79, 79);
+  border-radius: 15px;
+  cursor: pointer;
+  color: rgb(79, 79, 79);
+}
+
+.logInForm {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.logOutForm {
+  text-align: right;
+  margin-top: 5px;
+  margin-right: 80px;
+}
+
+.loginInput {
+  background-color: #d9d9d9d1;
+  border: none;
+  padding: 6px 10px;
+  margin-left: 60px;
+}
+
+.todoForm {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.todoList {
+  text-align: center;
+  font-size: 18px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.todoInput {
+  background-color: #d9d9d9d1;
+  border: none;
+  text-align: center;
+  padding: 6px 10px;
+  width: 200px;
+  margin-top: 100px;
+}
+
+.xBtn {
+  background-color: inherit;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  color: rgb(79, 79, 79);
+}
+
+.quote {
+  text-align: center;
+  position: relative;
+  bottom: -630px;
+  white-space: pre-line;
+  font-family: "DNFForgedBlade";
+  font-style: normal;
+  font-weight: 300;
+}
+
+.weather {
+  white-space: pre-line;
+  text-align: right;
+  position: relative;
+  bottom: -580px;
+  font-family: "DNFForgedBlade";
+  margin-right: 50px;
+}
+
+@font-face {
+  font-family: "DNFForgedBlade";
+  font-style: normal;
+  font-weight: 300;
+  src: url("//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Light.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "DNFForgedBlade";
+  font-style: normal;
+  font-weight: 500;
+  src: url("//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "DNFForgedBlade";
+  font-style: normal;
+  font-weight: 700;
+  src: url("//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Bold.otf")
+    format("opentype");
+}
